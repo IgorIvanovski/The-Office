@@ -1,0 +1,64 @@
+body{
+  overflow-y: hidden;
+  background-color: grey;
+}
+
+.modal-backdrop.in {
+  opacity: 0.3;
+}
+
+.nameSearch{
+  background-color: grey;
+  position: relative;
+  text-align: center;
+}
+
+.nameSelect{
+  width: 250px;
+  height: 50px;
+  margin: 20px 0px 5px 0px;
+}
+
+option {
+  font-size: 20px;
+}
+
+img {
+  transform: scale(1);
+}
+
+.modal-body img {
+    max-width: 100%;
+}
+
+.modal-body {
+    font-family:  "Alef";
+    font-size: 22px;
+}
+
+#myModal {
+   position: absolute;
+   height: 400px;
+   max-width: 20%;
+   z-index: 9999;/* need to have position in order to use z index*/
+   overflow: auto;
+   overflow-y: hidden;
+   margin-top: 76px;
+   margin-left: -81px;
+}
+
+.btn {
+    position: relative;
+    right: -105px;
+}
+
+.arrow-down {
+  margin-top: -5px;
+  position: relative;
+  z-index: 99999;/* need to have position in order to use z index*/
+  width: 0; 
+  height: 0; 
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid white;
+}
